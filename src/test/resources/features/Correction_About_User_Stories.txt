@@ -1,0 +1,12 @@
+****In this document changed user stories information stored****
+
+1-User story 3 was created  like
+    Given I login as a librarian
+    When I navigate to "Books" page
+    And I take all book categories in UI
+    And I execute query to get book categories
+    Then verify book categories must match book_categories table from db
+
+    instead of using (I) we can use same as before in US2 (user) because repeated actions will be coded and
+    the code will be not clean so if something is changed it will be placed and stored in that document
+    for information. US3 ALL (I) CHANGED TO (user)

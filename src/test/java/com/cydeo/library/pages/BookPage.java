@@ -1,5 +1,6 @@
 package com.cydeo.library.pages;
 
+import com.cydeo.library.step_definitions.US3_stepDefs;
 import com.cydeo.library.utility.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -16,6 +17,7 @@ public class BookPage extends BasePage {
 
     @FindBy(id = "book_categories")
     public WebElement mainCategoryElement;
+    // it is used for US3_stepDefs ---->
 
     @FindBy(name = "name")
     public WebElement bookName;
