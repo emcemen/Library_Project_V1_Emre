@@ -38,9 +38,9 @@ public class DB_Util {
      */
     public static void createConnection(){
 
-        String url      = ConfigurationReader.getProperty("library3.db.url") ;
-        String username = ConfigurationReader.getProperty("library3.db.username") ;
-        String password = ConfigurationReader.getProperty("library3.db.password") ;
+        String url      = ConfigurationReader.getProperty("library2.db.url") ;
+        String username = ConfigurationReader.getProperty("library2.db.username") ;
+        String password = ConfigurationReader.getProperty("library2.db.password") ;
 
         createConnection(url, username, password);
 
