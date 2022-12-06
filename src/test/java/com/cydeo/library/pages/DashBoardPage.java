@@ -10,6 +10,7 @@ public class DashBoardPage extends BasePage {
 
     @FindBy(id = "borrowed_books")
     public WebElement borrowedBooksNumber;
+    // it is used for US2_stepDefs ---->   //*[@id="borrowed_books"]
 
     @FindBy(id = "user_count")
     public WebElement usersNumber;
